@@ -105,7 +105,7 @@ p {
 }
 
 .benefit-lead, .benefit-brand, .benefit-cost {
-    margin-bottom: 32px;
+    margin-bottom: 55px; /* 32px */
     color: #ffffff;
 }
 
