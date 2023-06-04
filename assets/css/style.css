@@ -96,7 +96,7 @@ p {
 Sets the width of the blue container to 76% which holds the images, sub headers, and text. */
 
 .content {
-    width: 76%;
+    width: 77%;
     display: inline-block;
     margin-left: 20px;
 }
@@ -162,7 +162,7 @@ background to a blue tone.  */
 This also styles the font color of the headers and paragraph text to a white tone.  */ 
 
 .benefit-lead, .benefit-brand, .benefit-cost {
-    margin-bottom: 55px;
+    margin-bottom: 60px;
     color: #ffffff;
 }
 
@@ -196,6 +196,6 @@ The text is also styles to be aligned on center of the page. */
 
 /* This styles the size of the footers header font. */
 
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
