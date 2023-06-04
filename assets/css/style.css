@@ -1,12 +1,22 @@
+/* Sets the box-sizing property to border-box for all elements given the asterisk, 
+values for padding and border are included in the element's total width and height calculation.
+Padding and margin are 0 for all elements on page. */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* This sets the background of the web page body to a light gray.
+This color is seen around the blue boxes and the footer. */ 
+
 body {
     background-color: #d9dcd6;
 }
+
+/* This styles the header element that is the blue banner at the top of the page holding the website title and navigation bar.
+Padding of element is set to 20 along with various fonts and fallback fonts. */
 
 .header {
     padding: 20px;
@@ -15,14 +25,23 @@ body {
     color: #ffffff;
 }
 
+/* This enables The light gray color span on the website title "horiseon."
+It matches the color of the body background color. */
+
 .header h1 .seo {
     color: #d9dcd6;
 }
+
+/* This sets the size for the website title "horiseon displayed top left.
+The inline block allows this header to "sit next to" the nav bar. */
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
+
+/* This sets the navigation bar links to be aligned right side, with specified fonts.
+Size is set at 19. */
 
 .header nav {
     padding-top: 15px;
@@ -32,19 +51,30 @@ body {
     font-size: 19px;
 }
 
+/* This style the nav bar by removing the unordered list bullet points. */
+
 .header nav ul {
     list-style-type: none;
 }
 
+/* This styles the navigation bar by allowing the bar to align next to the Horiseon header.
+It also adds space between the nav bar links or each "list item." */
+
 .header nav ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 35px;
 }
+
+/* This sets the color of the nav bar links.
+Also, text decoration is set to none (no underlines, etc) */
 
 a {
     color: #ffffff;
     text-decoration: none;
 }
+
+/* This adds an image which is seen under the header. 
+The background image is positioned in the center and sets the image to cover the entirety of the container. */
 
 .hero {
     height: 1000px;
@@ -55,15 +85,26 @@ a {
     background-position: center;
 }
 
+/* This styles the size of the font in the main section of the body where the contents class in the HTML code is,
+where the text is in the HTML aside tags, as well as the text under the footer header which reads the copyright. */
+
 p {
     font-size: 16px;
 }
+
+/* This aligns the section elements in the main section of the body next to the aside elements (right section of page).
+Sets the width of the blue container to 76% which holds the images, sub headers, and text. */
 
 .content {
     width: 76%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/* This styles the blue containers within the main section of the body holding the contents class elements.
+It styles the space between each blue container, the width/height of each container, and the space around the images and text within the blue container.
+It styles the font with various options in case the browswer does not support certain selected ones.
+It also sets the color of the font to a white tone. */
 
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
@@ -74,24 +115,37 @@ p {
     color: #ffffff;
 }
 
+
+/* The styles the size of each image in the main section of the body */
+
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
+
+/* The styles the size and space around the h2 elements in the main section of the body. */
 
 .online-reputation-management h2, .social-media-marketing h2, .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* This sets two headers to align left in the main section of the body */
+
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* This sets one header to align right in the main section of the body */
+
 .float-right {
     float: right;
     margin-left: 25px;
 }
+
+/* This styles the right side section of the webpage which is the aside tag within the main section of the body in the HTML code.
+This styles the font style, width of the blue container, the space around the icons and text, as well as styles the color of the container
+background to a blue tone.  */
 
 .benefits {
     margin-right: 20px;
@@ -104,15 +158,24 @@ p {
     background-color: #2589bd;
 }
 
+/* This styles the margin area around the text in the aside tag which is the right section of the webpage.
+This also styles the font color of the headers and paragraph text to a white tone.  */ 
+
 .benefit-lead, .benefit-brand, .benefit-cost {
-    margin-bottom: 55px; /* 32px */
+    margin-bottom: 55px;
     color: #ffffff;
 }
 
+/* This styles the headers of the aside section to be positioned in the center.
+This also styles the bottom margin of blue container in which these elements are in. */
+
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     text-align: center;
 }
+
+/* This style the alignment and size of the icons located within the aside section of the html code with the benefits class.
+These elements are seen within the right section of the live webpage. */
 
 .benefit-lead img, .benefit-cost img, .benefit-brand img {
     display: block;
@@ -120,12 +183,18 @@ p {
     max-width: 150px;
 }
 
+/* This styles the space around the footer, as well as sets or pushes the footer to be below all elements floated above it.
+It also styles the font types for the footer as well as fallback fonts.
+The text is also styles to be aligned on center of the page. */
+
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
     text-align: center;
 }
+
+/* This styles the size of the footers header font. */
 
 .footer h2 {
     font-size: 20px;
