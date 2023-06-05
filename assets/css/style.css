@@ -96,7 +96,7 @@ p {
 Sets the width of the blue container to 76% which holds the images, sub headers, and text. */
 
 .content {
-    width: 77%;
+    width: 76%;
     display: inline-block;
     margin-left: 20px;
 }
