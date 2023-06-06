@@ -20,7 +20,7 @@ Padding of element is set to 20 along with various fonts and fallback fonts. */
 
 .header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, 'sans-serif';
     background-color: #2a607c;
     color: #ffffff;
 }
@@ -45,10 +45,10 @@ Size is set at 19. */
 
 .header nav {
     padding-top: 15px;
-    margin-right: 40px;
+    margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
-    font-size: 19px;
+    font-size: 20px;
 }
 
 /* This style the nav bar by removing the unordered list bullet points. */
@@ -62,7 +62,7 @@ It also adds space between the nav bar links or each "list item." */
 
 .header nav ul li {
     display: inline-block;
-    margin-left: 35px;
+    margin-left: 25px;
 }
 
 /* This sets the color of the nav bar links.
@@ -73,18 +73,6 @@ a {
     text-decoration: none;
 }
 
-/* This adds an image which is seen under the header. 
-The background image is positioned in the center and sets the image to cover the entirety of the container. */
-
-.hero {
-    height: 1000px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
 /* This styles the size of the font in the main section of the body where the contents class in the HTML code is,
 where the text is in the HTML aside tags, as well as the text under the footer header which reads the copyright. */
 
@@ -92,11 +80,38 @@ p {
     font-size: 16px;
 }
 
-/* This aligns the section elements in the main section of the body next to the aside elements (right section of page).
-Sets the width of the blue container to 76% which holds the images, sub headers, and text. */
+/* This adds an image which is seen under the header. 
+The background image is positioned in the center and sets the image to cover the entirety of the container
+between the header and the body. This is it's own seperate section in the html. */
 
-.content {
-    width: 76%;
+#hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* This sets two headers to align left in the main section of the body */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* This sets one header to align right in the main section of the body */
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* This aligns the section elements in the main section of the body next to the aside elements (right section of page).
+Sets the width of the blue container to 75% which holds the images, sub headers, and text. */
+
+#content {
+    width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
@@ -129,25 +144,11 @@ It also sets the color of the font to a white tone. */
     font-size: 36px;
 }
 
-/* This sets two headers to align left in the main section of the body */
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-/* This sets one header to align right in the main section of the body */
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 /* This styles the right side section of the webpage which is the aside tag within the main section of the body in the HTML code.
 This styles the font style, width of the blue container, the space around the icons and text, as well as styles the color of the container
 background to a blue tone.  */
 
-.benefits {
+#benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -162,7 +163,7 @@ background to a blue tone.  */
 This also styles the font color of the headers and paragraph text to a white tone.  */ 
 
 .benefit-lead, .benefit-brand, .benefit-cost {
-    margin-bottom: 60px;
+    margin-bottom: 31px;
     color: #ffffff;
 }
 
@@ -187,15 +188,15 @@ These elements are seen within the right section of the live webpage. */
 It also styles the font types for the footer as well as fallback fonts.
 The text is also styles to be aligned on center of the page. */
 
-.footer {
+#footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
     text-align: center;
 }
 
-/* This styles the size of the footers header font. */
+/* This styles the size of the footers header font titled "Made with <3 by Horiseon." */
 
-.footer h4 {
+.footer h2 {
     font-size: 20px;
 }
