@@ -26,6 +26,12 @@ You may click on any and it will direct you to its corresponding section in the 
 
 ![Alt text](assets/images/horiseoncapture.png)
 
+Link to repo:
+https://github.com/brennysouza/module-1-challenge
+
+Link to deployed site:
+https://brennysouza.github.io/module-1-challenge/
+
 ## Credits
 N/A
 
