@@ -157,6 +157,8 @@ background to a blue tone.  */
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     background-color: #2589bd;
+    align-items: center;
+    text-align: center;
 }
 
 /* This styles the margin area around the text in the aside tag which is the right section of the webpage.
