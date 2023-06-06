@@ -24,7 +24,7 @@ When you open this website, a landing page appears.
 The only functional parts of this website are the three links in the headers nav bar.
 You may click on any and it will direct you to its corresponding section in the main section of the body. Each link is an important factor of the business and helps readers understand what Horiseon offers as a business to its clients. 
 
-![Alt text]("../../assets/images/horiseoncapture.png)
+![Alt text](assets/images/horiseoncapture.png)
 
 ## Credits
 N/A
